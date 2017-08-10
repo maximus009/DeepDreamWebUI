@@ -5,7 +5,6 @@ DeepDream on Flask Server
 <code>git clone https://github.com/maximus009/DeepDreamWebUI.git </code><br>
 <code>cd DeepDreamWebUI</code><br>
 <code>python app.py</code><br>
-```python app.py```
 
 ## Requirements
 Flask<br>

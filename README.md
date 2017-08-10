@@ -3,8 +3,8 @@ DeepDream on Flask Server
 
 ## Run
 <code>git clone https://github.com/maximus009/DeepDreamWebUI.git </code><br>
-<code>cd DeepDreamWebUI</code><br><br>
-<h6>If you prefer a virtual environment, create one</h6><br>
+<code>cd DeepDreamWebUI</code><br>
+<h6>If you prefer a virtual environment, create one</h6>
 <code>sudo pip install requirements.txt</code><br><br>
 <code>python app.py</code><br>
 

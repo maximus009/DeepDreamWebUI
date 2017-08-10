@@ -119,7 +119,7 @@ def gradient_ascent(x, iterations, step, max_loss=None):
         loss_value, grad_values = eval_loss_and_grads(x)
         if max_loss is not None and loss_value > max_loss:
             break
-        print('..Loss value at', i, ':', loss_value)
+        #print('..Loss value at', i, ':', loss_value)
         x += step * grad_values
     return x
 
@@ -167,7 +167,7 @@ def main(base_image_path):
     shrunk_original_img = resize_img(img, successive_shapes[0])
 
     for shape in successive_shapes:
-        print('Processing image shape', shape)
+        #print('Processing image shape', shape)
         img = resize_img(img, shape)
         img = gradient_ascent(img,
                               iterations=iterations,

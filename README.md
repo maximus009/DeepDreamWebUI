@@ -4,15 +4,19 @@ DeepDream on Flask Server
 ## Run
 <code>git clone https://github.com/maximus009/DeepDreamWebUI.git </code><br>
 <code>cd DeepDreamWebUI</code><br>
+If you prefer a virtual environment, create one<br>
+<code>sudo pip install requirements.txt</code><br>
 <code>python app.py</code><br>
 
-## Requirements
+## Requirements (main ones)
 Flask<br>
 <code>sudo pip install flask</code><br><br>
 Tensorflow<br>
 <code>sudo pip install tensorflow==1.\*</code><br><br>
 Keras<br>
 <code>sudo pip install keras==2.\*</code><br><br>
+
+Refer to ```requirements.txt```
 
 ### References
 <ul>

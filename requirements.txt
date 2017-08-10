@@ -1,0 +1,5 @@
+pip install tensorflow==1.*
+pip install keras==2.*
+pip install h5py
+pip install flask
+pip install Pillow

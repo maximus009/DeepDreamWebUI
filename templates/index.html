@@ -1,0 +1,53 @@
+
+<!doctype html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../static/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+    <title>Upload new File</title>
+    <script>
+    function move() {
+      var elem = document.getElementById("myBar");   
+      var width = 20;
+      var id = setInterval(frame, 15);
+      function frame() {
+        if (width == 100) {
+          clearInterval(id);
+        } else {
+          width++; 
+          elem.style.width = width + '%'; 
+          document.getElementById("demo").innerHTML = width * 1  + '%';
+        }
+      }
+    }
+    </script>
+
+</head>
+<body>
+
+<h1 class="h1" style="text-align: center">Inception DeepDream</h1> 
+<h2 class="h2 text-muted" style="text-align: center">v2.0</h2>
+<div class="container"> <br />
+    <div class="row">
+    	<div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading"><strong>Please upload an image</strong> <small> </small>
+                </div>
+                <div class="panel-body">
+                    <form method=post enctype=multipart/form-data>
+                        <div style="float:left">
+                        <input type="file" accept="image/png, image/jpeg, image/gif" name="file" class="btn btn-default image-preview-input"/>
+                        </div>
+                        <div style="float:left">
+                        <input type="submit" class="btn btn-labeled btn-primary" value=Upload />
+                        </div>
+                        <input type="button" class="btn btn-default image-preview-clear" onClick="history.go(0);" value=Clear>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
